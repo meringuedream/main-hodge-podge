@@ -1,0 +1,30 @@
+{
+  "name": "main-hodge-podge",
+  "version": "1.0.0",
+  "description": "The main hodge podge of different reusable components",
+  "main": "index.js",
+  "repository": "https://github.com/meringuedream/main-hodge-podge.git",
+  "author": "Dražen Nikolić <drazennikolic@hotmail.coms>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "engines": {
+    "node": ">=24.1.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.29",
+    "@types/react": "^19.1.6",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "typescript": "5.8.3"
+  }
+}

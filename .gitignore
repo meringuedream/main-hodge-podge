@@ -1,0 +1,8 @@
+# General
+.env
+.vscode
+node_modules
+
+# Next.js
+.next
+build
